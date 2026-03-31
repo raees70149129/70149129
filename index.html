@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raees Ali — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a class="nav-logo" href="#home">Raees<span> </span>Ali</a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Picture Gallery</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section id="home">
+    <div class="container">
+      <div class="hero-grid">
+
+        <div class="hero-photo">
+          <div class="hero-photo-frame">
+            <!--
+              To use your real photo, replace the div below with:
+              <img src="your-photo.jpg" alt="Alex Raza">
+            -->
+            <div class="avatar-placeholder">RA</div>
+          </div>
+        </div>
+
+        <!-- Hero Text -->
+        <div class="hero-content">
+          <p class="hero-greeting">👋 Hello, I'm</p>
+          <h1 class="hero-name">Raees<br>Ali</h1>
+          <p class="hero-tagline">
+            UI / UX Designer &amp; Software Engineering Student<br>
+            at University of Lahore, Lahore
+          </p>
+          <!-- Call-to-Action Buttons -->
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll Down Hint -->
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       ABOUT ME SECTION
+  ============================================= -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">Who I Am</p>
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-grid">
+
+        <!-- Bio Paragraphs -->
+        <div class="about-text fade-up">
+          <div class="divider"></div>
+          <p>
+            I'm a third-year Software Engineering student at UOL with a deep passion for
+            building software that solves real problems. My journey started with curiosity
+            about how websites work and quickly evolved into a love for clean code,
+            thoughtful UI design, and scalable backend systems.
+          </p>
+          <p>
+            Whether I'm debugging a stubborn algorithm at midnight or collaborating on a
+            team project, I bring the same energy: focused, detail-oriented, and genuinely
+            excited about the process. I believe great software is as much about empathy
+            for the user as it is about technical excellence.
+          </p>
+          <p>
+            My career goal is to join an innovative tech company where I can contribute to
+            products used by millions — and keep learning every single day. I'm especially
+            drawn to full-stack web development and machine learning.
+          </p>
+        </div>
+
+        <!-- Quick Stats Sidebar -->
+        <div class="fun-facts fade-up">
+          <div class="fact-card">
+            <div class="fact-num">3rd</div>
+            <div class="fact-label">Year of SE at UOL</div>
+          </div>
+          <div class="fact-card">
+            <div class="fact-num">10+</div>
+            <div class="fact-label">Projects Completed</div>
+          </div>
+          <div class="fact-card">
+            <div class="fact-num">2</div>
+            <div class="fact-label">Certifications Earned</div>
+          </div>
+          <div class="fact-card">
+            <div class="fact-num">3</div>
+            <div class="fact-label">Society Roles Held</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       CV SECTION — Education, Skills, Experience
+  ============================================= -->
+  <section id="cv">
+    <div class="container">
+      <p class="section-label">My Background</p>
+      <h2 class="section-title">Curriculum Vitae</h2>
+
+      <div class="cv-grid">
+
+        <!-- LEFT COLUMN: Education + Experience -->
+        <div class="cv-col">
+
+          <!-- Education -->
+          <h3 style="font-family:'Playfair Display',serif; font-size:1.1rem; margin-bottom:1.5rem; color:#C1440E;">
+            Education
+          </h3>
+
+          <div class="timeline fade-up">
+            <div class="timeline-item">
+              <h4>BS Software Engineering</h4>
+              <div class="timeline-meta">University of Lahore &middot; 2023 – 2027 (Expected)</div>
+              <p>
+                CGPA: 2.9 / 4.0<br>
+                Core Subjects: Data Structures, Algorithms, OOP, Database Systems,
+                Computer Networks, Operating Systems, Web Engineering, Machine Learning
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h4>FSc Pre-Engineering</h4>
+              <div class="timeline-meta">KIPS College &middot; 2020 – 2022</div>
+              <p>Marks: 928 / 1100 &middot; A Grade</p>
+            </div>
+          </div>
+
+          <!-- Experience & Volunteering -->
+          <h3 style="font-family:'Playfair Display',serif; font-size:1.1rem; margin:2rem 0 1.25rem; color:#C1440E;">
+            Experience &amp; Volunteering
+          </h3>
+
+          <div class="exp-card fade-up">
+            <div class="exp-org">Volunteer, AWS Cloud Club UOL</div>
+            <h4>Event Management</h4>
+            <p>Sep 2023 – Present &middot; Managed workshops on HTML/CSS/JS,ir ,
+            and co-organised DevFest 2023 attended by 300+ students.</p>
+          </div>
+
+          <div class="exp-card fade-up">
+            <div class="exp-org">Character Building Society</div>
+            <h4>Media Team Member</h4>
+            <p>Dec 2023 – Present &middot; Designed social media creatives and managed coverage
+            for on campus events and activities.</p>
+          </div>
+
+          <div class="exp-card fade-up">
+            <div class="exp-org">TechVentures Pvt. Ltd.</div>
+            <h4>Frontend Developer Intern</h4>
+            <p>Jun 2024 – Aug 2024 &middot; Built responsive UI components in React,
+            collaborated in an Agile team of 8, and improved page load speed by 18%.</p>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: Skills -->
+        <div class="cv-col">
+
+          <h3 style="font-family:'Playfair Display',serif; font-size:1.1rem; margin-bottom:1.5rem; color:#C1440E;">
+            Technical Skills
+          </h3>
+
+          <!-- Languages -->
+          <div class="skills-block fade-up">
+            <h4>Languages</h4>
+            <div class="skill-tags">
+              <span class="tag tag-tech">C++</span>
+            </div>
+          </div>
+
+          <!-- Designing -->
+          <div class="skills-block fade-up">
+            <h4>Designing</h4>
+            <div class="skill-tags">
+              <span class="tag tag-tech">Graphic Designing</span>
+            </div>
+          </div>
+
+          <!-- Web Technologies -->
+          <div class="skills-block fade-up">
+            <h4>Web Technologies</h4>
+            <div class="skill-tags">
+              <span class="tag tag-tech">HTML5</span>
+              <span class="tag tag-tech">CSS3</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skills-block fade-up">
+            <h4>Tools &amp; Platforms</h4>
+            <div class="skill-tags">
+              <span class="tag tag-tech">Git / GitHub</span>
+              <span class="tag tag-tech">VS Code</span>
+              <span class="tag tag-tech">Figma</span>
+              <span class="tag tag-tech">Photoshop</span>
+              <span class="tag tag-tech">Adobe Illustrator</span>
+              <span class="tag tag-tech">Canva</span>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skills-block fade-up">
+            <h4>Soft Skills</h4>
+            <div class="skill-tags">
+              <span class="tag tag-soft">Team Leadership</span>
+              <span class="tag tag-soft">Communication</span>
+              <span class="tag tag-soft">Problem Solving</span>
+              <span class="tag tag-soft">Time Management</span>
+              <span class="tag tag-soft">Public Speaking</span>
+              <span class="tag tag-soft">Critical Thinking</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       PROJECTS PORTFOLIO SECTION
+  ============================================= -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">What I've Built</p>
+      <h2 class="section-title">Projects Portfolio</h2>
+
+      <!-- Project Cards (Flexbox) -->
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card fade-up">
+          <div class="project-card-header">🛒</div>
+          <div class="project-card-body">
+            <h3>EcoShop — E-Commerce Platform</h3>
+            <p>A full-featured online store with cart management, user auth, and an admin
+            dashboard. Supports product filtering, real-time stock updates, and Stripe
+            payment integration.</p>
+            <div class="project-tools">
+              <span class="project-tool-tag">React.js</span>
+              <span class="project-tool-tag">Node.js</span>
+              <span class="project-tool-tag">MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card fade-up">
+          <div class="project-card-header">🤖</div>
+          <div class="project-card-body">
+            <h3>Project 02</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card fade-up">
+          <div class="project-card-header">🗂️</div>
+          <div class="project-card-body">
+            <h3>Project 03</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       PICTURE GALLERY SECTION
+  ============================================= -->
+  <section id="gallery">
+    <div class="container">
+      <p class="section-label">Moments</p>
+      <h2 class="section-title">Picture Gallery</h2>
+
+      <!--
+        To use real photos, replace each gallery-placeholder div with:
+        <img src="photo1.jpg" alt="Description">
+      -->
+      <div class="gallery-grid">
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>Picture 01</span>
+          </div>
+          <div class="gallery-overlay">Picture 01</div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>Picture 02</span>
+          </div>
+          <div class="gallery-overlay">Picture 02</div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>Picture 03</span>
+          </div>
+          <div class="gallery-overlay">Picture 03</div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>Picture 04</span>
+          </div>
+          <div class="gallery-overlay">Picture 05</div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>Picture 05</span>
+          </div>
+          <div class="gallery-overlay">Picture 05</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       CERTIFICATIONS & ACHIEVEMENTS SECTION
+  ============================================= -->
+  <section id="certifications">
+    <div class="container">
+      <p class="section-label">Credentials</p>
+      <h2 class="section-title">Certifications &amp; Achievements</h2>
+
+      <div class="certs-grid">
+
+       <div class="cert-card fade-up">
+          <div class="cert-info">
+            <h4>Certification 01</h4>
+            <div class="cert-issuer"> </div>
+            <div class="cert-year"> </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-info">
+            <h4>Certification 02</h4>
+            <div class="cert-issuer"> </div>
+            <div class="cert-year"> </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-info">
+            <h4>Certification 03</h4>
+            <div class="cert-issuer"> </div>
+            <div class="cert-year"> </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-info">
+            <h4>Certification 04</h4>
+            <div class="cert-issuer"> </div>
+            <div class="cert-year"> </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-info">
+            <h4>Certification 05</h4>
+            <div class="cert-issuer"> </div>
+            <div class="cert-year"> </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up">
+          <div class="cert-info">
+            <h4>Certification 06</h4>
+            <div class="cert-issuer"> </div>
+            <div class="cert-year"> </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       CONTACT US SECTION
+  ============================================= -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Let's Connect</p>
+      <h2 class="section-title">Contact </h2>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <p>
+            Whether you have a project idea, an internship opportunity, or just want to
+            say hello — my email is always open. I'll try my best to get back to you
+            within 24 hours!
+          </p>
+          <div class="contact-links">
+
+            <!-- Clickable Email (mailto link) -->
+            <a href="70149129@student.uol.edu.pk" class="contact-link">
+              70149129@student.uol.edu.pk
+            </a>
+
+          <!-- Download CV Button — replace resume.pdf with your actual file path -->
+          <a href="resume.pdf" download class="download-cv-btn">
+            ⬇️ Download My CV (PDF)
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer>
+    <p>&copy; 2026 <span>Raees Ali</span> &mdash; Designed &amp; built with pure HTML &amp; CSS </p>
+  </footer>
+
+
+  <!-- =============================================
+       JAVASCRIPT — Scroll effects & active nav link
+  ============================================= -->
+  <script>
+    // Add shadow to navbar when page is scrolled
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 10);
+    });
+
+    // Highlight the active nav link based on which section is in view
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.toggle(
+              'active',
+              link.getAttribute('href') === '#' + entry.target.id
+            );
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+
+    sections.forEach(s => sectionObserver.observe(s));
+
+    // Trigger fade-up animation when elements scroll into view
+    const fadeEls = document.querySelectorAll('.fade-up');
+    const fadeObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          fadeObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    fadeEls.forEach(el => fadeObserver.observe(el));
+  </script>
+
+</body>
+</html>
